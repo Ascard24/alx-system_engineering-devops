@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d '\n' - - < input.txt
+perl -lne 'print if $. % 2 ==1'
